@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=A371F7&center=true&vCenter=true&multiline=false&width=650&lines=%E2%9A%99%EF%B8%8F+Agentic+AI+Developer+Intern+%40+Data+Legos;%F0%9F%A7%A0+Multi-Agent+Pipelines+%7C+LangGraph+%7C+RAG+Systems;%F0%9F%8E%93+Final+Year+CS+%40+BIT+Bhopal;%F0%9F%94%A5+Depth+%3E+Breadth.+Architecture+%3E+Frameworks." alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3000&pause=1000&color=A371F7&center=true&vCenter=true&multiline=false&width=650&lines=%E2%9A%99%EF%B8%8F+Agentic+AI+Developer+Intern+%40+Data+Legos;%F0%9F%A7%A0+Multi-Agent+Pipelines+%7C+LangGraph+%7C+RAG+Systems;%F0%9F%8E%93+Final+Year+CS+%40+VIT+Bhopal;%F0%9F%94%A5+Depth+%3E+Breadth.+Architecture+%3E+Frameworks." alt="Typing SVG" />
   </a>
 </p>
 
@@ -177,6 +177,10 @@ Hybrid GraphRAG + Classic RAG pipeline with Query Enriching Agent, Schema Ground
 
 <!-- ═══════════════════════ ACTIVITY GRAPH ═══════════════════════ -->
 
+<div align="center">
+  <img src="./contrib_banner.svg" alt="Contribution Banner" width="100%" />
+</div>
+
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Priyanshu123a19&bg_color=0D1117&color=A371F7&line=A371F7&point=FFA657&area_color=A371F7&area=true&hide_border=true&custom_title=Contribution%20Timeline" width="100%" />
 
 <br/>
@@ -224,4 +228,4 @@ philosophy: "I build systems where agents think, plan & act — not just chat."
 
 <!-- ═══════════════════════ FOOTER ═══════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=shark&color=0:0D1117,100:A371F7&height=120&section=footer" width="100%" />
+<img src="./wave_footer.svg" alt="Wave Footer" width="100%" />
