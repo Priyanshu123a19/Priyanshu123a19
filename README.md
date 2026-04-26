@@ -32,11 +32,7 @@
 
 <!-- ═══════════════════════ TECH STACK SECTION ═══════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0D1117&height=1&section=header" width="100%" />
-
-<h2 align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:A371F7,100:58A6FF&height=40&text=%E2%9A%99%EF%B8%8F%20Tech%20Stack&fontSize=22&fontColor=FFFFFF&animation=twinkling&fontAlignY=55" width="250" />
-</h2>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:A371F7,100:58A6FF&height=60&text=%E2%9A%99%EF%B8%8F%20Tech%20Stack&fontSize=28&fontColor=FFFFFF&animation=twinkling&fontAlignY=50" width="100%" />
 
 <table align="center">
   <tr>
@@ -87,9 +83,9 @@
 
 <!-- ═══════════════════════ PROJECTS SECTION ═══════════════════════ -->
 
-<h2 align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:3FB950,100:39C5BA&height=40&text=%F0%9F%9A%80%20Flagship%20Projects&fontSize=22&fontColor=FFFFFF&animation=twinkling&fontAlignY=55" width="300" />
-</h2>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:3FB950,100:39C5BA&height=60&text=%F0%9F%9A%80%20Flagship%20Projects&fontSize=28&fontColor=FFFFFF&animation=twinkling&fontAlignY=50" width="100%" />
+
+<br/>
 
 <!-- PROJECT: ORBIT -->
 <details>
@@ -156,9 +152,9 @@ Hybrid GraphRAG + Classic RAG pipeline with Query Enriching Agent, Schema Ground
 
 <!-- ═══════════════════════ STATS SECTION ═══════════════════════ -->
 
-<h2 align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:E3B341,100:FFA657&height=40&text=%F0%9F%93%8A%20GitHub%20Analytics&fontSize=22&fontColor=FFFFFF&animation=twinkling&fontAlignY=55" width="300" />
-</h2>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:E3B341,100:FFA657&height=60&text=%F0%9F%93%8A%20GitHub%20Analytics&fontSize=28&fontColor=FFFFFF&animation=twinkling&fontAlignY=50" width="100%" />
+
+<br/>
 
 <p align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Priyanshu123a19&show_icons=true&hide_border=true&bg_color=0D1117&title_color=A371F7&icon_color=3FB950&text_color=E6EDF3&ring_color=A371F7&rank_icon=github" />
@@ -169,13 +165,9 @@ Hybrid GraphRAG + Classic RAG pipeline with Query Enriching Agent, Schema Ground
   <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyanshu123a19&layout=compact&hide_border=true&bg_color=0D1117&title_color=A371F7&text_color=E6EDF3&langs_count=8" />
 </p>
 
-<!-- ═══════════════════════ TROPHIES ═══════════════════════ -->
-
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Priyanshu123a19&theme=discord&no-frame=true&no-bg=true&margin-w=4&column=7" />
 </p>
-
-<!-- ═══════════════════════ ACTIVITY GRAPH ═══════════════════════ -->
 
 <div align="center">
   <img src="./contrib_banner.svg" alt="Contribution Banner" width="100%" />
@@ -187,9 +179,9 @@ Hybrid GraphRAG + Classic RAG pipeline with Query Enriching Agent, Schema Ground
 
 <!-- ═══════════════════════ CURRENTLY SECTION ═══════════════════════ -->
 
-<h2 align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:FF6B6B,100:FFA657&height=40&text=%F0%9F%94%AD%20Currently&fontSize=22&fontColor=FFFFFF&animation=twinkling&fontAlignY=55" width="220" />
-</h2>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FF6B6B,100:FFA657&height=60&text=%F0%9F%94%AD%20Currently&fontSize=28&fontColor=FFFFFF&animation=twinkling&fontAlignY=50" width="100%" />
+
+<br/>
 
 ```yaml
 # ~/.config/priyanshu/status.yaml
