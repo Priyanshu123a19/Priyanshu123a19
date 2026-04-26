@@ -1,6 +1,6 @@
 <!-- ═══════════════════════════════ HEADER ═══════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=200&color=0:0D1117,100:A371F7&text=Priyanshu%20Tiwari&fontSize=50&fontColor=E6EDF3&animation=fadeIn&stroke=A371F7&strokeWidth=1" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=venom&height=200&color=0:0D1117,100:A371F7&text=Priyanshu%20Yadav&fontSize=50&fontColor=E6EDF3&animation=fadeIn&stroke=A371F7&strokeWidth=1" width="100%" />
 
 <!-- ═══════════════════════════ TYPING SUBTITLE ═══════════════════════════ -->
 
