@@ -165,10 +165,6 @@ Hybrid GraphRAG + Classic RAG pipeline with Query Enriching Agent, Schema Ground
   <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Priyanshu123a19&layout=compact&hide_border=true&bg_color=0D1117&title_color=A371F7&text_color=E6EDF3&langs_count=8" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Priyanshu123a19&theme=discord&no-frame=true&no-bg=true&margin-w=4&column=7" />
-</p>
-
 <div align="center">
   <img src="./contrib_banner.svg" alt="Contribution Banner" width="100%" />
 </div>
