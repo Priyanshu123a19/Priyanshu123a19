@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 90" width="860" height="90">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#0D1117"/>
+      <stop offset="50%"  stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#A371F7"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="linegr" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"  stop-color="#A371F7" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#A371F7"/>
+      <stop offset="70%" stop-color="#58A6FF"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="860" height="90" fill="url(#bg)" rx="8"/>
+
+  <!-- Top border line animated -->
+  <rect x="0" y="0" width="860" height="1" fill="url(#linegr)" opacity="0.6">
+    <animate attributeName="opacity" values="0.3;0.9;0.3" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Animated bars — contribution visualization -->
+  <!-- Bar heights are decorative, pulse up and down -->
+  <g transform="translate(30, 75)" filter="url(#glow)">
+    <!-- 28 bars across the width -->
+    <rect x="0"   y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="8;22;8"  dur="3.1s" begin="0s"    repeatCount="indefinite"/>
+    </rect>
+    <rect x="22"  y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="12;35;12" dur="2.8s" begin="0.2s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="44"  y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="5;18;5"   dur="3.5s" begin="0.4s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="66"  y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="20;50;20" dur="2.6s" begin="0.1s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="88"  y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="10;28;10" dur="3.2s" begin="0.6s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="110" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="6;15;6"   dur="2.9s" begin="0.3s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="132" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="18;45;18" dur="3.4s" begin="0.7s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="154" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="9;30;9"   dur="2.7s" begin="0.5s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="176" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="14;38;14" dur="3.0s" begin="0.9s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="198" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="7;20;7"   dur="3.6s" begin="0.2s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="220" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="22;55;22" dur="2.5s" begin="0.8s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="242" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="11;32;11" dur="3.3s" begin="0.4s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="264" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="16;42;16" dur="2.8s" begin="1.0s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="286" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="8;25;8"   dur="3.1s" begin="0.6s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="308" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="25;60;25" dur="2.6s" begin="0.1s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="330" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="13;36;13" dur="3.4s" begin="0.3s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="352" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="6;19;6"   dur="2.9s" begin="0.7s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="374" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="19;48;19" dur="3.2s" begin="0.5s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="396" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="10;29;10" dur="2.7s" begin="0.9s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="418" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="15;40;15" dur="3.5s" begin="0.2s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="440" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="8;22;8"   dur="3.0s" begin="0.8s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="462" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="21;52;21" dur="2.5s" begin="0.4s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="484" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="12;33;12" dur="3.3s" begin="0.6s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="506" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="17;44;17" dur="2.8s" begin="1.1s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="528" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="7;21;7"   dur="3.6s" begin="0.3s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="550" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="24;58;24" dur="2.6s" begin="0.7s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="572" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="11;31;11" dur="3.1s" begin="0.5s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="594" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="16;43;16" dur="2.9s" begin="0.9s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="616" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="9;26;9"   dur="3.4s" begin="0.2s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="638" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="20;50;20" dur="2.7s" begin="0.8s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="660" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="13;37;13" dur="3.2s" begin="0.4s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="682" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="6;17;6"   dur="3.7s" begin="1.0s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="704" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="18;47;18" dur="2.5s" begin="0.6s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="726" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="10;28;10" dur="3.0s" begin="0.3s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="748" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="23;56;23" dur="2.8s" begin="0.7s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="770" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="14;39;14" dur="3.3s" begin="0.5s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="792" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="8;23;8"   dur="2.6s" begin="1.2s"  repeatCount="indefinite"/>
+    </rect>
+    <rect x="814" y="0" width="16" height="0" fill="url(#bar)" rx="2" transform="scale(1,-1)">
+      <animate attributeName="height" values="19;46;19" dur="3.1s" begin="0.9s"  repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Floating label -->
+  <text x="430" y="32" text-anchor="middle" fill="#E6EDF3" font-size="13" font-family="'Courier New', monospace" letter-spacing="3" opacity="0.7">
+    CONTRIBUTION TIMELINE
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Pulsing left dot -->
+  <circle cx="60" cy="28" r="3" fill="#A371F7">
+    <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Pulsing right dot -->
+  <circle cx="800" cy="28" r="3" fill="#58A6FF">
+    <animate attributeName="r" values="3;5;3" dur="2s" begin="1s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" begin="1s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Bottom border -->
+  <rect x="0" y="89" width="860" height="1" fill="url(#linegr)" opacity="0.4"/>
+</svg>
