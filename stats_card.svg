@@ -1,0 +1,214 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 320" width="860" height="320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="pu" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#A371F7"/>
+      <stop offset="100%" stop-color="#58A6FF"/>
+    </linearGradient>
+    <linearGradient id="gn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3FB950"/>
+      <stop offset="100%" stop-color="#39C5BA"/>
+    </linearGradient>
+    <linearGradient id="og" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFA657"/>
+      <stop offset="100%" stop-color="#E3B341"/>
+    </linearGradient>
+    <linearGradient id="ts-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3178C6"/>
+      <stop offset="100%" stop-color="#58A6FF"/>
+    </linearGradient>
+    <linearGradient id="py-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3776AB"/>
+      <stop offset="100%" stop-color="#39C5BA"/>
+    </linearGradient>
+    <linearGradient id="js-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F7DF1E"/>
+      <stop offset="100%" stop-color="#FFA657"/>
+    </linearGradient>
+    <linearGradient id="jn-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F37626"/>
+      <stop offset="100%" stop-color="#E3B341"/>
+    </linearGradient>
+    <linearGradient id="cs-bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#563D7C"/>
+      <stop offset="100%" stop-color="#A371F7"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="320" fill="url(#bg)" rx="12" stroke="#30363D" stroke-width="1"/>
+
+  <!-- ── LEFT PANEL: STATS ── -->
+
+  <!-- Panel bg -->
+  <rect x="16" y="16" width="260" height="288" fill="#0D1117" rx="8" stroke="#21262D" stroke-width="1"/>
+
+  <!-- Panel title -->
+  <text x="146" y="44" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#8B949E" letter-spacing="2">GITHUB STATS</text>
+  <line x1="36" y1="52" x2="256" y2="52" stroke="#21262D" stroke-width="1"/>
+
+  <!-- Total Commits -->
+  <text x="36" y="84" font-family="'Courier New',monospace" font-size="11" fill="#8B949E">Total Commits</text>
+  <text x="256" y="84" text-anchor="end" font-family="'Courier New',monospace" font-size="15" fill="#E6EDF3" font-weight="bold">
+    190
+    <animate attributeName="opacity" values="0;1" dur="0.5s" begin="0.3s" fill="freeze"/>
+  </text>
+  <rect x="36" y="89" width="0" height="2" fill="url(#pu)" rx="1">
+    <animate attributeName="width" from="0" to="220" dur="1s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+
+  <!-- Total Stars -->
+  <text x="36" y="122" font-family="'Courier New',monospace" font-size="11" fill="#8B949E">Total Stars</text>
+  <text x="256" y="122" text-anchor="end" font-family="'Courier New',monospace" font-size="15" fill="#E3B341" font-weight="bold">31</text>
+  <rect x="36" y="127" width="0" height="2" fill="url(#og)" rx="1">
+    <animate attributeName="width" from="0" to="80" dur="1s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+
+  <!-- Total PRs -->
+  <text x="36" y="160" font-family="'Courier New',monospace" font-size="11" fill="#8B949E">Total PRs</text>
+  <text x="256" y="160" text-anchor="end" font-family="'Courier New',monospace" font-size="15" fill="#E6EDF3" font-weight="bold">1</text>
+  <rect x="36" y="165" width="0" height="2" fill="url(#gn)" rx="1">
+    <animate attributeName="width" from="0" to="20" dur="1s" begin="0.7s" fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+
+  <!-- Contributions -->
+  <text x="36" y="198" font-family="'Courier New',monospace" font-size="11" fill="#8B949E">Contributions</text>
+  <text x="256" y="198" text-anchor="end" font-family="'Courier New',monospace" font-size="15" fill="#3FB950" font-weight="bold">242</text>
+  <rect x="36" y="203" width="0" height="2" fill="url(#gn)" rx="1">
+    <animate attributeName="width" from="0" to="220" dur="1s" begin="0.9s" fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+
+  <!-- Longest Streak -->
+  <text x="36" y="236" font-family="'Courier New',monospace" font-size="11" fill="#8B949E">Longest Streak</text>
+  <text x="256" y="236" text-anchor="end" font-family="'Courier New',monospace" font-size="15" fill="#FFA657" font-weight="bold">10 days</text>
+  <rect x="36" y="241" width="0" height="2" fill="url(#og)" rx="1">
+    <animate attributeName="width" from="0" to="100" dur="1s" begin="1.1s" fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+
+  <!-- Rank badge -->
+  <circle cx="146" cy="284" r="18" fill="none" stroke="#30363D" stroke-width="2"/>
+  <circle cx="146" cy="284" r="18" fill="none" stroke="url(#pu)" stroke-width="2" stroke-dasharray="113" stroke-dashoffset="113" stroke-linecap="round" transform="rotate(-90 146 284)">
+    <animate attributeName="stroke-dashoffset" from="113" to="28" dur="1.5s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </circle>
+  <text x="146" y="289" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#A371F7" font-weight="bold">C+</text>
+
+  <!-- ── MIDDLE PANEL: STREAK ── -->
+
+  <rect x="292" y="16" width="260" height="288" fill="#0D1117" rx="8" stroke="#21262D" stroke-width="1"/>
+  <text x="422" y="44" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#8B949E" letter-spacing="2">STREAK</text>
+  <line x1="312" y1="52" x2="532" y2="52" stroke="#21262D" stroke-width="1"/>
+
+  <!-- Flame icon area -->
+  <text x="422" y="105" text-anchor="middle" font-size="32" filter="url(#glow)">🔥</text>
+
+  <!-- Current streak big number -->
+  <text x="422" y="155" text-anchor="middle" font-family="'Courier New',monospace" font-size="48" fill="#FFA657" font-weight="bold" filter="url(#softglow)">
+    0
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.4s" fill="freeze"/>
+  </text>
+  <text x="422" y="178" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#8B949E" letter-spacing="1">CURRENT STREAK</text>
+  <text x="422" y="196" text-anchor="middle" font-family="'Courier New',monospace" font-size="10" fill="#484F58">May 9</text>
+
+  <line x1="312" y1="216" x2="532" y2="216" stroke="#21262D" stroke-width="1"/>
+
+  <!-- Streak ring -->
+  <circle cx="422" cy="255" r="28" fill="none" stroke="#21262D" stroke-width="3"/>
+  <circle cx="422" cy="255" r="28" fill="none" stroke="url(#og)" stroke-width="3" stroke-dasharray="176" stroke-dashoffset="176" stroke-linecap="round" transform="rotate(-90 422 255)">
+    <animate attributeName="stroke-dashoffset" from="176" to="160" dur="1.5s" begin="0.6s" fill="freeze"/>
+  </circle>
+  <text x="422" y="251" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" fill="#E6EDF3" font-weight="bold">10</text>
+  <text x="422" y="264" text-anchor="middle" font-family="'Courier New',monospace" font-size="8" fill="#8B949E">LONGEST</text>
+
+  <!-- ── RIGHT PANEL: LANGUAGES ── -->
+
+  <rect x="568" y="16" width="276" height="288" fill="#0D1117" rx="8" stroke="#21262D" stroke-width="1"/>
+  <text x="706" y="44" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" fill="#8B949E" letter-spacing="2">TOP LANGUAGES</text>
+  <line x1="588" y1="52" x2="828" y2="52" stroke="#21262D" stroke-width="1"/>
+
+  <!-- TypeScript 59.71% -->
+  <text x="588" y="80" font-family="'Courier New',monospace" font-size="10" fill="#8B949E">TypeScript</text>
+  <text x="828" y="80" text-anchor="end" font-family="'Courier New',monospace" font-size="10" fill="#58A6FF">59.71%</text>
+  <rect x="588" y="84" width="240" height="6" fill="#21262D" rx="3"/>
+  <rect x="588" y="84" width="0" height="6" fill="url(#ts-bar)" rx="3">
+    <animate attributeName="width" from="0" to="143" dur="1.2s" begin="0.3s" fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+
+  <!-- JavaScript 14.52% -->
+  <text x="588" y="115" font-family="'Courier New',monospace" font-size="10" fill="#8B949E">JavaScript</text>
+  <text x="828" y="115" text-anchor="end" font-family="'Courier New',monospace" font-size="10" fill="#F7DF1E">14.52%</text>
+  <rect x="588" y="119" width="240" height="6" fill="#21262D" rx="3"/>
+  <rect x="588" y="119" width="0" height="6" fill="url(#js-bar)" rx="3">
+    <animate attributeName="width" from="0" to="35" dur="1.2s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+
+  <!-- Python 10.29% -->
+  <text x="588" y="150" font-family="'Courier New',monospace" font-size="10" fill="#8B949E">Python</text>
+  <text x="828" y="150" text-anchor="end" font-family="'Courier New',monospace" font-size="10" fill="#3776AB">10.29%</text>
+  <rect x="588" y="154" width="240" height="6" fill="#21262D" rx="3"/>
+  <rect x="588" y="154" width="0" height="6" fill="url(#py-bar)" rx="3">
+    <animate attributeName="width" from="0" to="25" dur="1.2s" begin="0.7s" fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+
+  <!-- Jupyter 10.71% -->
+  <text x="588" y="185" font-family="'Courier New',monospace" font-size="10" fill="#8B949E">Jupyter Notebook</text>
+  <text x="828" y="185" text-anchor="end" font-family="'Courier New',monospace" font-size="10" fill="#F37626">10.71%</text>
+  <rect x="588" y="189" width="240" height="6" fill="#21262D" rx="3"/>
+  <rect x="588" y="189" width="0" height="6" fill="url(#jn-bar)" rx="3">
+    <animate attributeName="width" from="0" to="26" dur="1.2s" begin="0.9s" fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+
+  <!-- CSS 2.45% -->
+  <text x="588" y="220" font-family="'Courier New',monospace" font-size="10" fill="#8B949E">CSS</text>
+  <text x="828" y="220" text-anchor="end" font-family="'Courier New',monospace" font-size="10" fill="#A371F7">2.45%</text>
+  <rect x="588" y="224" width="240" height="6" fill="#21262D" rx="3"/>
+  <rect x="588" y="224" width="0" height="6" fill="url(#cs-bar)" rx="3">
+    <animate attributeName="width" from="0" to="6" dur="1.2s" begin="1.1s" fill="freeze" calcMode="spline" keySplines="0.4,0,0.2,1"/>
+  </rect>
+
+  <!-- Pie donut -->
+  <!-- Background ring -->
+  <circle cx="706" cy="275" r="26" fill="none" stroke="#21262D" stroke-width="12"/>
+  <!-- TS arc ~215deg -->
+  <circle cx="706" cy="275" r="26" fill="none" stroke="#3178C6" stroke-width="12"
+    stroke-dasharray="163 0" stroke-dashoffset="0"
+    transform="rotate(-90 706 275)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.3s" fill="freeze"/>
+  </circle>
+  <!-- JS arc ~52deg -->
+  <circle cx="706" cy="275" r="26" fill="none" stroke="#F7DF1E" stroke-width="12"
+    stroke-dasharray="39 163" stroke-dashoffset="-163"
+    transform="rotate(-90 706 275)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.4s" fill="freeze"/>
+  </circle>
+  <!-- Python arc ~37deg -->
+  <circle cx="706" cy="275" r="26" fill="none" stroke="#3776AB" stroke-width="12"
+    stroke-dasharray="29 173" stroke-dashoffset="-202"
+    transform="rotate(-90 706 275)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.5s" fill="freeze"/>
+  </circle>
+  <!-- Jupyter arc ~39deg -->
+  <circle cx="706" cy="275" r="26" fill="none" stroke="#F37626" stroke-width="12"
+    stroke-dasharray="30 172" stroke-dashoffset="-231"
+    transform="rotate(-90 706 275)" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.3s" begin="1.6s" fill="freeze"/>
+  </circle>
+  <circle cx="706" cy="275" r="15" fill="#0D1117"/>
+  <text x="706" y="272" text-anchor="middle" font-family="'Courier New',monospace" font-size="7" fill="#8B949E">TOP</text>
+  <text x="706" y="282" text-anchor="middle" font-family="'Courier New',monospace" font-size="7" fill="#8B949E">LANGS</text>
+
+  <!-- Outer border pulse -->
+  <rect width="860" height="320" fill="none" rx="12" stroke="url(#pu)" stroke-width="1" opacity="0.3">
+    <animate attributeName="opacity" values="0.2;0.6;0.2" dur="3s" repeatCount="indefinite"/>
+  </rect>
+</svg>
